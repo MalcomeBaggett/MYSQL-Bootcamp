@@ -55,3 +55,13 @@ CREATE TABLE unique_cats3 (
     age INT NOT NULL,
     PRIMARY KEY (cat_id)
 );
+
+CREATE TABLE employees (
+    emp_id int AUTO_INCREMENT,
+    last_name VARCHAR(20) NOT NULL,
+    first_name VARCHAR(20) NOT NULL,
+    middle_name VARCHAR(20),
+    age int NOT NULL,
+    current_status VARCHAR(20) DEFAULT 'employed',
+    PRIMARY KEY (emp_id)
+ );
